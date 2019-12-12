@@ -9,9 +9,9 @@ namespace AspectInjector.Aspects
     {
     }
 
-    //[Injection(typeof(LogAspectAsync))]
-    //public class LogAsyncAttribute : Attribute
-    //{
-    //}
+    [Injection(typeof(LogAspectAsync))]
+    public class LogAsyncAttribute : Attribute
+    {
+    }
 
 }
