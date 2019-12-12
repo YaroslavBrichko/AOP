@@ -3,7 +3,7 @@
 
 namespace AOP_Demo
 {
-    public class MyClass
+    public class MyClass : IMyInterface
     {
         public void DoSomething()
         {
