@@ -6,8 +6,8 @@ namespace PostSharpApp.Bll
 {
     public class MyClass 
     {
-        //[LoggingAspect]
-        //[RetryAspect(3)]
+        [LoggingAspect]
+        [RetryAspect(3)]
         public int DoSomething()
         {
             Console.WriteLine("Inside 'DoSomthing()' method");
