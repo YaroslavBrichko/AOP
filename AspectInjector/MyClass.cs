@@ -13,7 +13,7 @@ namespace AspectInjector
             return 1;
         }
 
-
+        [LogAsync]
         public async Task<int> DoSomthingAsync()
         {
             Console.WriteLine("Inside 'DoSomthingAsync()' method");
